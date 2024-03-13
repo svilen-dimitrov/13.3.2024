@@ -10,10 +10,11 @@ public class MainDriver{
     @BeforeMethod
     public void before(){
         driver = new ChromeDriver();
-        driver.get("https://www.selenium.dev/selenium/web/web-form.html");
+        driver.get("https://www.saucedemo.com/");
     }
     @AfterMethod
     public void tearDown(){
-        driver.quit();
+
+//        driver.quit();
     }
 }
